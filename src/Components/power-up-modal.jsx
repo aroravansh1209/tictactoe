@@ -43,6 +43,7 @@ export default function PowerUpModal({ powerUp, onClose, onUse, board, currentPl
         break
     }
   }
+  
 
   const handleCellClick = (index) => {
     if (powerUp.effect === "swapEmoji") {
