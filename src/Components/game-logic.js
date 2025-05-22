@@ -1,8 +1,3 @@
-/**
- * Checks if there is a winner on the board
- * @param {Array} board - The game board state
- * @returns {Object} - Object containing winner and winning combination
- */
 export function checkWinner(board) {
   // Winning combinations (rows, columns, diagonals)
   const winningLines = [
